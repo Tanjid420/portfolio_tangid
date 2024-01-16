@@ -1,8 +1,9 @@
 import logo from "./images/logo.png";
 import profileImg from "./images/Portfolio.jpg";
-import amazonImg from "./images/amazonImg.png";
-import cyberImg from "./images/cyberBlog.png";
-import noorShop from "./images/noorShop.png";
-import resumeLogo from "../assets/images/resume_logo.svg"
 
-export { logo, profileImg, amazonImg, cyberImg, noorShop,resumeLogo };
+import resumeLogo from "../assets/images/resume_logo.svg"
+import hospital from "../assets/images/Hospital.gif"
+import ecommerce from "../assets/images/Ecommerce.gif"
+import dictionary from "../assets/images/Dictionary.gif"
+
+export { profileImg, hospital, ecommerce, dictionary,resumeLogo};
