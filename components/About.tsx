@@ -2,10 +2,14 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
+import {motion} from "framer-motion";
 
 const About = () => {
   return (
-    <section
+    <motion.section
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 , y:"-10%"}}
+    transition={{ duration:0.5 , delay: .5 }}
       id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
@@ -72,7 +76,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              MySQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -90,13 +94,13 @@ const About = () => {
                 src={profileImg}
                 alt="profileImg"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-80 bg-transparent rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
           <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
