@@ -13,7 +13,7 @@ const Projects = () => {
      whileInView={{ opacity: 1 , y:"-10%"}}
      transition={{ duration:0.5 , delay: .5 }}
      id="project" className="max-w-container mx-auto lgl:px-20 py-24 ml-[3rem]">
-      <SectionTitle title="Projects" titleNo="03" />
+      <SectionTitle title="Projects" titleNo="" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row ml-[3rem] gap-6">
