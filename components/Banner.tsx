@@ -33,7 +33,7 @@ const Banner = () => {
          Hey there! I'm a passional frontend enthusiast with a knack for crafting engaging user experiences.
         I am all about creating cool stuff for users and learning as I go. Super eager to turn ideas into 
         reality, lets make some web magic together!  {" "}
-        <a href="https://www.noormohammad.live/" target="_blank">
+        <a href="https://github.com/Tanjid420" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
@@ -41,7 +41,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank">
+      <a href="https://github.com/Tanjid420" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

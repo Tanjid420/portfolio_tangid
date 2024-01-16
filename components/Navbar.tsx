@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { logo } from "@/public/assets";
+import { logo, resumeLogo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,7 +49,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <Image className="w-16" src={resumeLogo} alt="logo" />
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
@@ -127,7 +127,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          <a href="/Md.Tangid_Khan_CV.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
